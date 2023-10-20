@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: content-box;
     transition: all 0.5s;
-    src: url(/assets/NotoSansJP.ttf);
-    font-family: 'Noto Sans JP', sans-serif;
+    /* src: url(/assets/NotoSansJP.ttf); */
+    /* font-family: sans-serif; */
 }
 p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
