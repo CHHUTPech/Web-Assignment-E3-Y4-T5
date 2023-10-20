@@ -30,6 +30,8 @@
 .card .card-body{
     width: 250px;
     height: 100px;
+    padding: 0;
+    padding-top: 1rem;
 }
 .card .card-body .d-price{
     color: rgb(118, 118, 118);
@@ -40,5 +42,5 @@
     font-weight: 500;
 }
 .card .card-body .card-text{
-    max-width: 225px;
+    max-width: 235px;
 }

@@ -104,7 +104,17 @@ body {
     background: url('/assets/images/background_right.webp') right repeat-y fixed,
         url('/assets/images/background_left.webp') left repeat-y fixed;
     background-size: 50%;
+
 }
+.app-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .app-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .form-input {
     width: 100%;
@@ -115,7 +125,7 @@ body {
 }
 
 .form-input .form-input-content {
-    padding: 0.5rem;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
     width: 100%;
 }
 
@@ -296,6 +306,7 @@ body {
     .app-header .app-nav-bar .app-nav-bar-action .app-nav-bar-action-search .form-input .form-input-content {
         width: 100%;
         border-right: 1px solid rgb(183, 183, 183);
+        height: 1.7rem;
     }
 
     .app-header .app-nav-bar .app-nav-bar-action .app-nav-bar-action-search .form-input .form-input-content input {
@@ -318,10 +329,11 @@ body {
         cursor: pointer;
     }
 
-
-
     .app-header .app-nav-bar .app-nav-bar-midle .app-slider .app-slider-menu .open-slider-item  .app-slider-menu-item-content-item-menu{
         display: block;
+    }
+    .app-header .app-nav-bar .app-nav-bar-midle .app-slider .app-slider-menu .open-slider-item  .app-slider-menu-item-content .fa-angle-right{
+        transform: rotate(-90deg);
     }
 }
 
@@ -376,6 +388,7 @@ body {
     .app-header .app-nav-bar .app-nav-bar-action .app-nav-bar-action-search .form-input .form-input-content {
         width: 100%;
         border-right: 1px solid rgb(183, 183, 183);
+        height: 1.7rem;
     }
 
     .app-header .app-nav-bar .app-nav-bar-action .app-nav-bar-action-search .form-input .form-input-content input {

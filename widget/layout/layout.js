@@ -29,10 +29,12 @@ closeSearchBtn.addEventListener('click', () => {
 appSliderMenuItems.forEach(item => {
     item.addEventListener('click', (event)=> {
         appSliderMenuItems.forEach(otherItem => {
-            otherItem.classList.remove('open-slider-item');
+            if(item != otherItem){
+                otherItem.classList.remove('open-slider-item');
+            }
         });
 
-        item.classList.add('open-slider-item');
+        item.classList.toggle('open-slider-item');
     });
 });
 
