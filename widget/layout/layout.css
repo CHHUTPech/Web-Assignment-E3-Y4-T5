@@ -1,10 +1,14 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: content-box;
     transition: all 0.5s;
     src: url(/assets/NotoSansJP.ttf);
     font-family: 'Noto Sans JP', sans-serif;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -52,7 +56,7 @@ body {
 }
 
 .app-container .app-footer .menu-footer .menu-footer-item .menu-footer-item-content a,
-p {
+.app-container .app-footer .menu-footer .menu-footer-item .menu-footer-item-content p {
     color: rgb(54, 54, 54);
     display: block;
     line-height: 2rem;
@@ -161,7 +165,8 @@ p {
 
     .app-header .app-nav-bar .app-nav-bar-midle {
         display: flex;
-        gap: 15px;
+        align-items: center;
+        gap: 40px;
     }
 
     .app-header .app-nav-bar .app-nav-bar-midle .logo {
@@ -178,6 +183,7 @@ p {
         display: flex;
         font-size: 0.9rem;
         cursor: pointer;
+        align-items: center;
     }
 
     .app-header .app-nav-bar .app-nav-bar-midle .app-slider .app-slider-menu .app-slider-menu-item .app-slider-menu-item-content {
