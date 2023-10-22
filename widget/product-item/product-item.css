@@ -10,6 +10,7 @@
 
 }
 .card{
+    background-color: transparent;
     cursor: pointer;
     width: 250px;
     height: 350px;
