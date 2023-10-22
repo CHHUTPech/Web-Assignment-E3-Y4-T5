@@ -1,6 +1,7 @@
 .main-product{
     padding: 1rem;
     font-size: small;
+    z-index: 1 !important;
 }
 .main-product .product{
     justify-content: center;
