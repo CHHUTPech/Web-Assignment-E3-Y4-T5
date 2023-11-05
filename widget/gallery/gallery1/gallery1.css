@@ -1,0 +1,19 @@
+.gallery1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.gallery1 .gallery1-left{
+    width: 70%;
+    overflow: hidden;
+}
+.gallery1 .gallery1-left img{
+    width: 110%;
+}
+.gallery1 .gallery1-right{
+    width: 30%;
+}
+.gallery1 .gallery1-right img{
+    width: 100%;
+}
