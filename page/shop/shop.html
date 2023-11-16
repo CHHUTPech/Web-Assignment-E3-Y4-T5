@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/vendors/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/widget/layout/layout.css">
+    <link rel="stylesheet" href="/widget/product-item/product-item.css">
+    <link rel="stylesheet" href="/widget/cart/cart/cart.css">
+    <link rel="stylesheet" href="/page/shop/shop.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div include-html="/widget/layout/layout.html"></div>
+
+    <div class="add-content">
+        <div class="bg-body">
+            <div class="container">
+                <p class="fs-3 pb-4">Bags</p>
+                <div class="filter">
+                    <div class="filter-input">
+                        <p>Filter: </p>
+                        <div class="filter-input-item">
+                            <div class="filter-input-item-title">
+                                <p>Availability</p>
+                                <i class="fa-regular fa-angle-down"></i>
+                            </div>
+                            <div class="filter-input-item-menu">
+                                <p><span>0 selected</span><span class="text-decoration-underline">Reset</span></p>
+                                <div class="filter-input-item-menu-group-item">
+                                    <div class="filter-input-item-menu-item">
+                                        <input type="checkbox" id="1"><label for="1">In stock (26)</label>
+                                    </div>
+                                    <div class="filter-input-item-menu-item">
+                                        <input type="checkbox" id="2"><label for="2">Out of stock (8)</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-input-item">
+                            <div class="filter-input-item-title">
+                                <p>Price</p>
+                                <i class="fa-regular fa-angle-down"></i>
+                            </div>
+                            <div class="filter-input-item-menu">
+                                <p><span>The highest price is $615.00</span><span
+                                        class="text-decoration-underline">Reset</span></p>
+                                <div class="filter-input-item-menu-group-item ">
+                                    <div class="filter-input-item-menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <span>$</span>
+                                            <input class="form-control" type="number" min="0" placeholder="From">
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span>$</span>
+                                            <input class="form-control" type="number" min="0" placeholder="To">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-input-item">
+                            <div class="filter-input-item-title">
+                                <p>Color</p>
+                                <i class="fa-regular fa-angle-down"></i>
+                            </div>
+                            <div class="filter-input-item-menu">
+                                <p><span>0 selected</span><span class="text-decoration-underline">Reset</span></p>
+                                <div class="filter-input-item-menu-group-item">
+                                    <div class="filter-input-item-menu-item">
+                                        <input type="checkbox" id="11"><label for="11">In stock (26)</label>
+                                    </div>
+                                    <div class="filter-input-item-menu-item">
+                                        <input type="checkbox" id="12"><label for="12">Out of stock (8)</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sort">
+                        <span>Sort by:</span>
+                        <select role="button">
+                            <option value="featured">featured</option>
+                            <option value="best seller">Best Seller</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>26 products</span>
+                    </div>
+                </div>
+                <div include-html="/widget/product-item/product-item.html"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/vendors/bootstrap/bootstrap.js"></script>
+    <script src="/page/shop/shop.js"></script>
+    <script src="/widget/layout/layout.js"></script>
+</body>
+
+</html>

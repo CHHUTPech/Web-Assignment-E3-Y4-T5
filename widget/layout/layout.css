@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: content-box;
     transition: all 0.5s;
+    
 }
 p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
+
 }
 
 a {
@@ -40,7 +42,7 @@ body {
 }
 
 .app-container .app-footer .menu-footer {
-    max-width: 1200px;
+    
     width: calc(100% - 3rem);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(0, 300px));
@@ -69,7 +71,7 @@ body {
 
 .app-container .contact-footer {
     width: calc(100% - 3rem);
-    max-width: 1200px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,16 +159,15 @@ body {
 
 @media only screen and (min-width: 1024px) {
     .app-header {
-        /* background-color: aqua; */
         display: flex;
         flex-direction: column;
         align-items: center;
         z-index: 10;
+        border-bottom: 1px solid rgb(197, 197, 197)
     }
 
     .app-header .app-nav-bar {
         width: calc(100% - 3rem);
-        max-width: 1200px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -174,6 +175,7 @@ body {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
+
 
     .app-header .app-nav-bar .app-nav-bar-right {
         display: none;
@@ -354,9 +356,13 @@ body {
         justify-content: space-between;
         align-items: center;
         background-color: white;
-        padding: 1rem;
         height: 2rem;
         border-bottom: 1px solid rgb(225, 225, 225);
+    }
+    .app-header .container{
+        padding: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .app-header .app-nav-bar .app-nav-bar-action {

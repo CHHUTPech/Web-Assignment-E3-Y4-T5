@@ -1,0 +1,55 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    height: 25px;
+}
+.filter .filter-input{
+    display: flex;
+    gap: 5px;
+}
+.filter .filter-input .filter-input-item{
+    width: 100px;
+    height: fit-content;
+    cursor: pointer;
+}
+.filter .filter-input .filter-input-item .filter-input-item-title{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.filter .filter-input .filter-input-item p:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+.filter .filter-input .filter-input-item .filter-input-item-menu{
+    width: 200px;
+    border-radius: 3px;
+    font-size: 13px;
+    top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: white;
+    padding: 12px 12px 24px 12px;
+    border: 1px solid rgb(190, 190, 190);
+}
+.filter .filter-input .filter-input-item .filter-input-item-menu .filter-input-item-menu-group-item{
+    padding-top: 12px;
+}
+.filter .filter-input .filter-input-item .filter-input-item-menu{
+    display: none;
+}
+.filter .filter-input .open-input .filter-input-item-menu{
+    display: block;
+}
+.filter .filter-input .filter-input-item .filter-input-item-menu p:first-child{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.filter .filter-input .filter-input-item .filter-input-item-menu .filter-input-item-menu-item{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
