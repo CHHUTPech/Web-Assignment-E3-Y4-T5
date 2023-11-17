@@ -3,13 +3,14 @@
     padding-bottom: 1rem;
     font-size: small;
     z-index: 1 !important;
+    width: 100%;
 }
 .main-product .product{
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(0, 250px));
     gap: 10px;
-
+    width: 100%;
 }
 .card{
     background-color: transparent;
