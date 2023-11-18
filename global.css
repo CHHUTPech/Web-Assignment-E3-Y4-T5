@@ -1,0 +1,12 @@
+
+input{
+    width: calc(100% - 24px) !important;
+    padding: 12px;
+}
+.button{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    padding: 12px 36px 12px 36px;
+    cursor: pointer;
+}
