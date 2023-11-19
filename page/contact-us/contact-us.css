@@ -33,3 +33,9 @@
     display: flex;
     gap: 10px;
 }
+@media only screen and (max-width: 1024px){
+    .contact-us .contact-form-input .contact-us-group-input{
+        flex-direction: column;
+    }
+
+}

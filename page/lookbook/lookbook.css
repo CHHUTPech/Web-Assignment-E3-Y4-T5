@@ -1,0 +1,11 @@
+.lookbook{
+    background-color: aqua;
+    width: calc(100% - 2rem);
+    padding-top: 2rem;
+    overflow: hidden;
+}
+.lookbook .group-photo{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}

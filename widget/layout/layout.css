@@ -1,3 +1,5 @@
+@import "/global.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +42,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(0, 300px));
   gap: 10px;
+  align-items: flex-start;
 }
 
 .app-container .app-footer .menu-footer .menu-footer-item {
@@ -77,15 +80,16 @@ body {
 }
 
 .app-container .contact-footer {
-  width: calc(100% - 3rem);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 .app-container .app-footer .contact-footer .contact-footer-input {
-  width: 100%;
+  width: calc(100% - 3rem);
+  max-width: 400px;
 }
 
 .app-container .app-footer .contact-footer .contact-footer-media {
@@ -814,3 +818,4 @@ body {
   width: calc(100% - rem);
   overflow: hidden;
 }
+

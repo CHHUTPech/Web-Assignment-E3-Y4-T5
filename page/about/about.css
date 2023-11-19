@@ -36,3 +36,18 @@
 .about .about-conntex p{
     max-width: 700px;
 }
+@media only screen and (max-width: 1024px){
+    
+.about .about-photo{
+    display: flex;
+    gap: 10px;
+    padding-top: 3rem;
+    width: calc(100% - 2rem);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-direction: column;
+}
+.about .about-photo img{
+    width: 100%;
+}
+}
