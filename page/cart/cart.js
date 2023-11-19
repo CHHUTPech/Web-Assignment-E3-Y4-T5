@@ -1,5 +1,6 @@
-fetch('/index.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('content').innerHTML = data;
-});
+function addContent(){
+  var appContent = document.querySelector('.app-content');
+  var addContent = document.querySelector('.add-content');
+  appContent.innerHTML = addContent.innerHTML;
+  addContent.innerHTML = ''
+}

@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-photo{
+    display: flex;
+    gap: 10px;
+    padding-top: 3rem;
+    width: calc(100% - 2rem);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+.about .about-photo img{
+    width: 31.5%;
+}
+.about .about-title{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: calc(100% - 1rem);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    max-width: 700px;
+}
+.about .about-conntex{
+    background-color: rgb(228, 228, 228);
+    padding: 3rem;
+    width: calc(100% - 6rem);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about .about-conntex p{
+    max-width: 700px;
+}

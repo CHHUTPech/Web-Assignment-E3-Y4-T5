@@ -1,5 +1,5 @@
 
-input{
+input,textarea{
     width: calc(100% - 24px) !important;
     padding: 12px;
 }
@@ -9,4 +9,22 @@ input{
     color: white;
     padding: 12px 36px 12px 36px;
     cursor: pointer;
+}
+
+.img-text{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.img-text img{
+    width: 100%;
+}
+.img-text .title{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.img-text p{
+    max-width: 800px;
+}
+.img-text .sub-title{
+    font-size: 0.8rem;
 }
