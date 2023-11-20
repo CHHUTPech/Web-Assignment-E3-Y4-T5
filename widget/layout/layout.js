@@ -1,3 +1,5 @@
+
+
 function includeHTML() {
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
@@ -24,11 +26,9 @@ function includeHTML() {
             return;
         }
     }
-    
     layoutFunction()
     addContent()
 }
-
 function layoutFunction() {
     const menuBtn = document.querySelector('.app-nav-bar-right-btn')
     const appSlider = document.querySelector('.app-slider')
@@ -80,7 +80,6 @@ function layoutFunction() {
     });
 
 }
-
 
 includeHTML();
 
