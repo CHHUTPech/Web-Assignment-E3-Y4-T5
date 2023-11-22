@@ -6,7 +6,7 @@
     width: 100%;
 }
 .main-product .product{
-    justify-content: center;
+    justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(0, 300px));
     gap: 10px;
