@@ -1,9 +1,13 @@
+.title{
+  width: calc(100% - 4rem);
+}
+
 .filter {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
   height: 25px;
-  width: calc(100% - 2rem);
+  width: calc(100% - 4rem);
 }
 .filter .filter-input {
   display: flex;
