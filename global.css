@@ -1,0 +1,55 @@
+
+input,textarea{
+    width: calc(100% - 24px) !important;
+    padding: 12px;
+}
+input[type=checkbox]{
+    padding: 5px;
+    width: 24px !important;
+}
+.button{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    padding: 12px 36px 12px 36px;
+    cursor: pointer;
+}
+
+.img-text{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.img-text img{
+    width: 100%;
+}
+.img-text .title{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.img-text p{
+    max-width: 800px;
+}
+.img-text .sub-title{
+    font-size: 0.8rem;
+}
+.expand{
+    padding-top: 1rem;
+    width: 100%;
+}
+.expand .expand-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    border-top: 1px solid rgb(197, 197, 197);
+    cursor: pointer;
+}
+.expand .expand-content{
+    display: none;
+}
+.open .expand-content{
+    display: block;
+}
+.open .fa-angle-right{
+    rotate: 90deg;
+}
