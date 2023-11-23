@@ -1,4 +1,5 @@
 .lookbook{
+    background-color: aqua;
     width: calc(100% - 2rem);
     padding-top: 2rem;
     overflow: hidden;
@@ -7,18 +8,4 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-}
-.lookbook .group-photo .group-photo-tiem{
-    display: flex;
-    gap: 10px;
-}
-.lookbook .group-photo .group-photo-tiem .photo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-.lookbook .group-photo .group-photo-tiem .photo img{
-    height: 100%;
-    width: 100%;
 }
