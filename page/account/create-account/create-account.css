@@ -1,0 +1,21 @@
+.create-account {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-account .create-account-form{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.create-account .create-account-form .btn-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 2rem;
+}

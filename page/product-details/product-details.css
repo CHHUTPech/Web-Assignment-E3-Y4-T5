@@ -1,0 +1,110 @@
+.product-details{
+    padding-top: 2rem;
+    width: calc(100% - 3rem);
+    display: flex;
+}
+.product-details .product-details-photo{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.product-details .product-details-photo img{
+    width: 100%;
+}
+.product-details .product-details-photo .product-details-photo-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.product-details .product-item-details{
+    width: calc(35% - 4rem);
+    padding: 2rem;
+}
+.product-details .product-item-details .product-item-form{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.product-details .product-item-details .product-item-form .group-radio{
+    display: flex;
+}
+.product-details .product-item-details .product-item-form .group-radio input{
+    display: none;
+}
+.product-details .product-item-details .product-item-form .group-radio label{
+    width: fit-content;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid black;
+    border-radius: 26px;
+    cursor: pointer;
+}
+.product-details .product-item-details .add-quantity{
+    width: fit-content;
+    border: 1px solid black;
+}
+.product-details .product-item-details .add-quantity i{
+    padding: 1rem;
+    cursor: pointer;
+}
+.product-details .product-item-details .btn{
+    padding: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    width: calc(100% - 2rem);
+    border-radius: 0;
+}
+.feature{
+    width: 100%;
+}
+.des{
+    display: flex;
+    background-color: aliceblue;
+    width: calc(100% - 1rem);
+}
+.des img{
+    width: 50%;
+}
+.des-text{
+    display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+    .product-details{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .product-details .product-details-photo{
+        width: 100%;
+        flex-direction: row;
+        overflow: scroll;
+        gap: 1rem;
+    }
+    .product-details .product-details-photo img{
+        width: 100%;
+    }
+    .product-details .product-details-photo .product-details-photo-group{
+        display: contents;
+        width: 100%;
+        gap: 1rem;
+    }
+    .product-details .product-details-photo .product-details-photo-group img{
+        height: 100%;
+    }
+    .product-details .product-item-details{
+        width: calc(100% - 1rem);
+        padding: 0.5rem;
+    }
+    .des{
+        flex-direction: column;
+    }
+    .des img{
+        width: 100%;
+    }
+    .des-text{
+        flex-direction: column;
+    }
+}

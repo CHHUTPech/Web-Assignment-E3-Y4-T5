@@ -1,0 +1,41 @@
+.contact-us{
+    width: calc(100% - 1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact-us p{
+    line-height: 2.5rem;
+}
+
+.contact-us .contact-us-title{
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-us .contact-form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+.contact-us .contact-form-input .form-input{
+    max-width: none;
+}
+.contact-us .contact-form-input .contact-us-group-input{
+    display: flex;
+    gap: 10px;
+}
+@media only screen and (max-width: 1024px){
+    .contact-us .contact-form-input .contact-us-group-input{
+        flex-direction: column;
+    }
+
+}
