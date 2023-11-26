@@ -50,11 +50,11 @@ export function pageShopFunction() {
       var url = window.location.href;
       var params = new URLSearchParams(new URL(url).search);
       document.querySelector('#title').innerHTML = params.get("cartegory")
-      document.querySelectorAll('#countProduct').forEach((item)=>{
-        item.innerText = product.length + ' products'
-      })
-      console.log(document.querySelector('#countProduct').innerHTML)
+      
     }
+    document.querySelectorAll('#countProduct').forEach((item)=>{
+      item.innerText = product.length + ' products'
+    })
   }
 
 }
