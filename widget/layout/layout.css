@@ -80,7 +80,6 @@ body {
 }
 
 .app-container .contact-footer {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,12 +117,11 @@ body {
 
 .app-container {
   height: calc(100vh - 5rem);
-  /* overflow-x: hidden; */
-  background-color: yellow;
   background: url("/assets/images/background.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: calc(4rem - 2px);
 }
 .app-container::-webkit-scrollbar {
   display: none;
@@ -171,8 +169,7 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-    
-  .hide-big{
+  .hide-big {
     display: none !important;
   }
   .app-header {
@@ -184,13 +181,24 @@ body {
   }
 
   .app-header .app-nav-bar {
-    width: calc(100% - 3rem);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    position: fixed;
+    top: -2px;
+    z-index: 1000;
+  }
+
+  .app-header .app-nav-bar .app-nav-bar1{
+    width: calc(100% - 16rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
   }
 
   .app-header .app-nav-bar .app-nav-bar-right {
@@ -407,7 +415,7 @@ body {
     .app-nav-bar
     .app-nav-bar-action
     .app-nav-bar-action-search
-    .form-input{
+    .form-input {
     width: 100%;
     border-right: 1px solid rgb(183, 183, 183);
     height: 1.7rem;
@@ -469,8 +477,7 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-    
-  .hide-small{
+  .hide-small {
     display: none !important;
   }
   .app-header {
@@ -483,12 +490,20 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding-top: 1rem;
+    padding: 1rem;
     padding-bottom: 1rem;
     height: 2rem;
     border-bottom: 1px solid rgb(225, 225, 225);
+    position: fixed;
+    top: -2px;
+    z-index: 1000;
   }
-
+  .app-header .app-nav-bar .app-nav-bar1{
+    width: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .app-header .app-nav-bar .app-nav-bar-action {
     position: absolute;
     height: 0vh;
@@ -536,7 +551,7 @@ body {
     .app-nav-bar
     .app-nav-bar-action
     .app-nav-bar-action-search
-    .form-input{
+    .form-input {
     width: 100%;
     border-right: 1px solid rgb(183, 183, 183);
     height: 1.7rem;
@@ -816,7 +831,7 @@ body {
   /* overflow: hidden; */
 }
 
-.loading{
+.loading {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -827,11 +842,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-.loading div{
+.loading div {
   background-color: white;
   padding: 1.5rem;
   border-radius: 0.5rem;
 }
-.loading div i{
+.loading div i {
   font-size: 3rem;
 }

@@ -80,14 +80,14 @@
   }
   .filter .filter-input {
     background-color: white;
-    position: absolute;
     width: 75%;
     height: 100vh;
     top: 0;
     right: -150%;
     flex-direction: column;
     overflow: hidden;
-    display: none;
+    position: fixed;
+    z-index: 1000;
   }
   .filter .filter-input .filter-input-header {
     display: flex;
@@ -160,12 +160,9 @@
 
   
   .filter .filter-input .open-input .filter-input-item-menu .open-input-menu{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
-    gap: 5px;
   }
   .filter .filter-input .open-input .filter-input-item-menu {
     right: 0rem;
