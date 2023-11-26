@@ -1,22 +1,11 @@
-// Function to fetch and parse JSON data
-async function fetchData(josn_part) {
-  try {
-    // Fetch the JSON file
-    const response = await fetch(josn_part);
+import * as productDetail from "./page/product-details/product-details.js"
+import * as Shop from "./page/shop/shop.js"
+import * as productItem from "./widget/product-item/product-item.js"
+import product  from "./data/product.js"
 
-    // Check if the request was successful
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-
-    // Parse the JSON data
-    const jsonData = await response.json();
-    console.log(jsonData)
-    return jsonData;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
+export default product; 
+export function globalFunction(){
+  Shop.pageShopFunction()
+  productDetail.productDetails()
+  productItem.productItemFunction(product)
 }
-
-// Call the function to fetch and parse JSON data
-console.log(fetchData("/data/product.json"))

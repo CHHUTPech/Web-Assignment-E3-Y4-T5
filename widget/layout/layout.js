@@ -1,4 +1,4 @@
-
+import * as global from "../../global.js"
 
 function includeHTML() {
     var z, i, elmnt, file, xhttp;
@@ -28,6 +28,14 @@ function includeHTML() {
     }
     layoutFunction()
     addContent()
+    
+}
+function addContent(){
+    var appContent = document.querySelector('.app-content');
+    var addContent = document.querySelector('.add-content');
+    appContent.innerHTML = addContent.innerHTML;
+    addContent.innerHTML = ''
+    global.globalFunction()
 }
 function layoutFunction() {
     const menuBtn = document.querySelector('.app-nav-bar-right-btn')
@@ -78,8 +86,6 @@ function layoutFunction() {
             });
         });
     });
-
-    console.log(document.querySelector('[field="name"]').innerHTML = "test")
 }
 
 includeHTML();
