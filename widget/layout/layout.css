@@ -144,20 +144,21 @@ body {
 }
 
 .form-input .form-input-content {
-  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  padding: 0;
   width: 100%;
 }
 
 .form-input .form-input-content span {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
 }
 
 .form-input .form-input-content input {
   border: none;
   outline: none;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  padding: 0 !important;
   background-color: transparent;
 }
 
@@ -406,8 +407,7 @@ body {
     .app-nav-bar
     .app-nav-bar-action
     .app-nav-bar-action-search
-    .form-input
-    .form-input-content {
+    .form-input{
     width: 100%;
     border-right: 1px solid rgb(183, 183, 183);
     height: 1.7rem;
@@ -418,7 +418,6 @@ body {
     .app-nav-bar-action
     .app-nav-bar-action-search
     .form-input
-    .form-input-content
     input {
     display: flex;
     width: 100%;
@@ -537,8 +536,7 @@ body {
     .app-nav-bar
     .app-nav-bar-action
     .app-nav-bar-action-search
-    .form-input
-    .form-input-content {
+    .form-input{
     width: 100%;
     border-right: 1px solid rgb(183, 183, 183);
     height: 1.7rem;
@@ -549,7 +547,6 @@ body {
     .app-nav-bar-action
     .app-nav-bar-action-search
     .form-input
-    .form-input-content
     input {
     display: flex;
     width: 100%;
