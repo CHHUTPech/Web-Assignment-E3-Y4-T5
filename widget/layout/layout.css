@@ -118,7 +118,7 @@ body {
 
 .app-container {
   height: calc(100vh - 5rem);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: yellow;
   background: url("/assets/images/background.svg");
   background-size: cover;
@@ -813,7 +813,7 @@ body {
 }
 .app-container .app-content {
   width: calc(100% - rem);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .loading{
