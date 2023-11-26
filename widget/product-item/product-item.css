@@ -47,6 +47,7 @@
 }
 .card .card-body .card-text{
     max-width: 300px;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1024px){
@@ -55,5 +56,8 @@
     }
     .main-product .product{
         justify-content: center;
+    }
+    .card .card-body .card-text{
+        font-size: 1.5rem;
     }
 }
