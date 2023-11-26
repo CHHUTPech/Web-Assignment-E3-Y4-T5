@@ -29,7 +29,6 @@ export function productItemFunction(data) {
 
 }
 function fillItem(data) {
-  console.log(data)
   const productGrid = document.querySelector('[fieldName = "product-grid"]');
   let newProductItems = "";
   if (productGrid != null) {
@@ -56,6 +55,5 @@ function fillItem(data) {
       console.error("Error in exampleUsage:", error);
     }
   }else{
-    productGrid.innerHTML = "Product not found!"
   }
 }
