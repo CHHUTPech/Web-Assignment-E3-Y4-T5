@@ -161,6 +161,7 @@
   
   .filter .filter-input .open-input .filter-input-item-menu .open-input-menu{
     font-size: 1.2rem;
+    padding-top: 1rem;
     display: flex;
     align-items: center;
   }
