@@ -19,7 +19,7 @@
     <div class="add-content">
         <div class="bg-body">
             <div class="container">
-                <p class="title fs-3 pt-4 pb-2">Bags</p>
+                <p class="title fs-3 pt-4 pb-2 text-capitalize" id="title">Bags</p>
                 <div class="filter">
                     <div class="filter-header">
                         <i class="fa-regular fa-sliders"></i>
@@ -29,7 +29,7 @@
                         <div class="filter-input-header">
                             <div class="filter-input-header-title">
                                 <p>Filter and sort</p>
-                                <span class="hide-big">26 products</span>
+                                <span class="hide-big" id="countProduct">0 products</span>
                             </div>
                             <i class="fa-thin fa-xmark-large close-filter-btn hide-big"></i>
                         </div>
@@ -86,10 +86,10 @@
                                 <p class="hide-big open-input-menu"><i class="fa-regular fa-angle-left"></i>Color </p>
                                 <div class="filter-input-item-menu-group-item">
                                     <div class="filter-input-item-menu-item">
-                                        <input type="checkbox" id="11"><label for="11">In stock (26)</label>
+                                        <input type="checkbox" id="11"><label for="11">In stock</label>
                                     </div>
                                     <div class="filter-input-item-menu-item">
-                                        <input type="checkbox" id="12"><label for="12">Out of stock (8)</label>
+                                        <input type="checkbox" id="12"><label for="12">Out of stock</label>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                             <option value="mercedes">Mercedes</option>
                             <option value="audi">Audi</option>
                         </select >
-                        <span>26 products</span>
+                        <span id="countProduct">0 products</span>
                     </div>
                 </div>
                 <div include-html="/widget/product-item/product-item.html"></div>

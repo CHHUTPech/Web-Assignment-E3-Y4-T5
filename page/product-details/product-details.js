@@ -5,8 +5,6 @@ export function productDetails(){
     var Quantity = 0;
     var quan = document.querySelector('.quantity')
 
-   
-
     if(productDetail != null){
         document.querySelector('[fileName = "main-img"]').src = productDetail.photo[0]
         
