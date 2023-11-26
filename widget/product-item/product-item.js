@@ -24,7 +24,5 @@ function fillItem(data) {
     } catch (error) {
       console.error("Error in exampleUsage:", error);
     }
-  }else{
-    productGrid.innerHTML = ""
   }
 }

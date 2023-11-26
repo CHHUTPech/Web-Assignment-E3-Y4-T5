@@ -36,6 +36,9 @@ function addContent(){
     appContent.innerHTML = addContent.innerHTML;
     addContent.innerHTML = ''
     global.globalFunction()
+
+    setTimeout(closeLoading, 700);
+    
 }
 function layoutFunction() {
     const menuBtn = document.querySelector('.app-nav-bar-right-btn')
@@ -86,6 +89,10 @@ function layoutFunction() {
             });
         });
     });
+}
+
+function closeLoading(){
+    document.querySelector('.loading').style.display = 'none'
 }
 
 includeHTML();
