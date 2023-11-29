@@ -114,7 +114,6 @@
     height: 3rem;
     align-items: center;
     display: flex;
-    
   }
   .filter .filter-input .filter-input-item .filter-input-item-title{
     width: calc(100% - 1rem);
@@ -136,6 +135,7 @@
     width: calc(100% - 1.5rem);
     display: block;
     border: none;
+    padding-top: 2rem;
   }
 
   .filter .filter-input .filter-footer{
@@ -164,6 +164,7 @@
     padding-top: 2rem;
     display: flex;
     align-items: center;
+    gap: 12px;
   }
   .filter .filter-input .open-input .filter-input-item-menu {
     right: 0rem;
