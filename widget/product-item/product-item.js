@@ -22,11 +22,8 @@ export function productItemFunction(data) {
   }
   else{
     data = data.filter(product=> product.cartegory.toLowerCase() == categery.toLowerCase())
-    
   }
   fillItem(data);
-  // return product.find(product=> product.id == productId);
-
 }
 function fillItem(data) {
   const productGrid = document.querySelector('[fieldName = "product-grid"]');
