@@ -1,35 +1,81 @@
 .cart-shopping {
-    /* background-color: brown; */
+  /* background-color: brown; */
 }
 
 .cart-shopping .cart-shopping-content {
-    /* background-color: aqua; */
+  /* background-color: aqua; */
 }
 
-.cart-shopping .cart-shopping-content .cart-shopping-content-item{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    align-items: center;
+.cart-shopping .cart-shopping-content .cart-shopping-content-item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  align-items: center;
 }
 
-.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-details{
-    display: flex;
-    gap: 10px;
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-details {
+  display: flex;
+  gap: 10px;
 }
-.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-details img{
-   width: 100px;
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-details
+  img {
+  width: 100px;
 }
 
-.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-quelity{
-    
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-quelity {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-quelity,.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-quelity div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-quelity i{
+  cursor: pointer;
 }
-.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-quelity i ,.cart-shopping .cart-shopping-content .cart-shopping-content-item .cart-shopping-content-item-quelity p{
-    padding: 0.5rem 1rem ;
-    cursor: pointer;
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-quelity
+  div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-quelity
+  div
+  i,
+.cart-shopping
+  .cart-shopping-content
+  .cart-shopping-content-item
+  .cart-shopping-content-item-quelity
+  div
+  p {
+  padding: 0.2rem 1rem;
+  border: 1px solid #999;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .cart-shopping {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        zoom: 65%;
+    }
 }

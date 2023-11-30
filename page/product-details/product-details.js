@@ -2,7 +2,7 @@ import product from "../../global.js";
 export function productDetails(){
    
     var productDetail = getItemDetail();
-    var Quantity = 0;
+    var Quantity = 1;
     var quan = document.querySelector('.quantity')
 
     if(productDetail != null){

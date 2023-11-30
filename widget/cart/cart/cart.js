@@ -1,0 +1,22 @@
+import product from '../../../data/product.js'
+export function cartFunction() {
+    
+localStorage.setItem('person', JSON.stringify(product));
+  var productItem = JSON.parse(localStorage.getItem('person'))
+  var cartItem = document.querySelector('[fileName="cart-item"]');
+  var newCartItem = "";
+  var quantity = 0
+  var TotalQuantity = 0
+  if (cartItem != null) {
+    for (let i = 0; i < productItem.length; i++) {
+      cartItem.querySelector('[fileName="img"]').src = "/assets/products/mlouye-art-deco-cyclamen-1.jpg";
+      cartItem.querySelector('[fileName="name"]').innerHTML = productItem[i].name;
+      cartItem.querySelector('[fileName="price"]').innerHTML ="$ " + productItem[i].price;
+      cartItem.querySelector('[fileName="color"]').innerHTML = "Color: "+ productItem[i].color[1].name;
+      cartItem.querySelector('[fileName="quantity"]').innerHTML = quantity;
+      cartItem.querySelector('[fileName="total_price"]').innerHTML ="$ " + TotalQuantity;
+      newCartItem = newCartItem + cartItem.innerHTML
+    }
+    cartItem.innerHTML = newCartItem
+  }
+}
