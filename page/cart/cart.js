@@ -7,5 +7,7 @@ function removeProductFromCart(id){
     }
     localStorage.setItem('productInCart', JSON.stringify(productItem))
     location.reload();
-  }
+}
+
+
   
