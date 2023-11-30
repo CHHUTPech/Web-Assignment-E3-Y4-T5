@@ -4,6 +4,7 @@ export function cartFunction() {
   var cartItem = document.querySelector('[fileName="cart-item"]');
   var newCartItem = "";
   var totalPrice = 0
+
   if (cartItem != null) {
     if(productItem!=null){
       
@@ -15,6 +16,9 @@ export function cartFunction() {
         cartItem.querySelector('[fileName="color"]').innerHTML = "Color: "+ productItem[i].color.find(color=>color.id == productItem[i].addColor).name;
         cartItem.querySelector('[fileName="quantity"]').innerHTML = productItem[i].addQuantity;
         cartItem.querySelector('[fileName="total_price"]').innerHTML ="$ " + parseFloat(productItem[i].addQuantity*productItem[i].price).toFixed(2);
+        cartItem.querySelector('.removeItem').setAttribute('onclick', 'removeProductFromCart('+productItem[i].id+')');
+
+
         newCartItem = newCartItem + cartItem.innerHTML
         totalPrice = totalPrice + parseFloat(productItem[i].addQuantity*productItem[i].price)
       }
@@ -25,4 +29,5 @@ export function cartFunction() {
     }
   }
 }
+
 

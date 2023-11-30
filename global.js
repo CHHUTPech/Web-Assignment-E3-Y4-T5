@@ -11,3 +11,4 @@ export function globalFunction(){
   productItem.productItemFunction(product)
   cart.cartFunction()
 }
+
