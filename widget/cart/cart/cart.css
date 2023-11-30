@@ -78,4 +78,18 @@
         padding-right: 1rem;
         zoom: 65%;
     }
+    .cart-shopping
+      .cart-shopping-content
+      .cart-shopping-content-item
+      .cart-shopping-content-item-quelity
+      div
+      i,
+    .cart-shopping
+      .cart-shopping-content
+      .cart-shopping-content-item
+      .cart-shopping-content-item-quelity
+      div
+      p {
+      padding: 0.1rem 0.5rem;
+    }
 }
