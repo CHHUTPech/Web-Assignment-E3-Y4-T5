@@ -205,7 +205,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bann Usu Jhhjk',
+    "cartegory": 'Bann Usu Jhhjk  ',
     "color": [
       {
         "id": 1,
