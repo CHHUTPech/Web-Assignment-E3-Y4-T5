@@ -132,5 +132,4 @@ function addProductToCart(quan,color){
     if(productItemInCart){
         localStorage.setItem('productInCart', JSON.stringify(productItemInCart));
     }
-    localStorage.clear()
 }
