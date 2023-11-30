@@ -18,7 +18,7 @@ export function productDetails(){
         groupImg.innerHTML = newGroupImg
 
         document.querySelector('[fileName="product-name"]').innerHTML = productDetail.name
-        document.querySelector('[fileName="product-price"]').innerHTML ='$ ' + productDetail.price
+        document.querySelector('[fileName="product-price"]').innerHTML ='$ ' + productDetail.price.toFixed(2)
 
         const groupColor = document.querySelector('[fileName = "group-color"]')
         let newGroupColor = ''
@@ -125,9 +125,14 @@ function addProductToCart(quan,color){
     }
     if(getItemDetail()){
         var pd = getItemDetail();
-        pd.addQuantity = quan
-        pd.addColor = color
-        productItemInCart.push(pd)
+        if(!productItemInCart.find(product=>product.id == pd.id)){
+            pd.addQuantity = quan
+            pd.addColor = color
+            productItemInCart.push(pd)
+            alert('Product already in cart');
+        }else{
+            alert('Product already in cart');
+        }
     }
     if(productItemInCart){
         localStorage.setItem('productInCart', JSON.stringify(productItemInCart));
