@@ -25,6 +25,7 @@ export function productItemFunction(data) {
   }
   fillItem(data);
 }
+
 function fillItem(data) {
   const productGrid = document.querySelector('[fieldName = "product-grid"]');
   let newProductItems = "";
@@ -54,3 +55,4 @@ function fillItem(data) {
   }else{
   }
 }
+
