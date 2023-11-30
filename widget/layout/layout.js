@@ -47,6 +47,7 @@ function layoutFunction() {
     const appSliderMenuItems = document.querySelectorAll('.app-slider-menu-item');
     const backBtn = document.querySelectorAll('.back-btn');
     const searchBtn = document.querySelector('.search-btn')
+    const searchBtn1 = document.querySelector('.searchBtn')
     const closeSearchBtn = document.querySelector('.close-btn')
     const appNavBarAction = document.querySelector('.app-nav-bar-action')
 
@@ -89,6 +90,10 @@ function layoutFunction() {
             });
         });
     });
+    searchBtn1.addEventListener('click',()=>{
+        window.location.href = "/page/shop/shop.html?name="+document.getElementById('searchInput').value
+    })
+
 }
 
 function closeLoading(){

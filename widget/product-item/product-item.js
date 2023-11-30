@@ -3,25 +3,29 @@ export function productItemFunction(data) {
   var params = new URLSearchParams(new URL(url).search);
   var categery = params.get("cartegory");
   var id = params.get("id");
+  var name = params.get("name");
   var availability = params.get("availability");
   var color = params.get("color");
   var sort = params.get("sort");
+  if(name ==null){
   if (categery == null) {
     const shuffledArray = data.sort(() => Math.random() - 0.5);
-    let maxLength = 0
-    if(id!=null){
+    let maxLength = 0;
+    if (id != null) {
       maxLength = 4;
-    }else maxLength = 8;
+    } else maxLength = 8;
 
-    data = shuffledArray.slice(
-      0,
-      Math.min(data.length, maxLength)
+    data = shuffledArray.slice(0, Math.min(data.length, maxLength));
+    } else if (categery.toLowerCase() == "shop all") {
+    } else {
+      data = data.filter(
+        (product) => product.cartegory.toLowerCase() == categery.toLowerCase()
+      );
+    }
+  }else{
+    data = data.filter(
+      (product) => product.name.toLowerCase().includes(name.toLowerCase())
     );
-  }
-  else if(categery.toLowerCase() =='shop all'){
-  }
-  else{
-    data = data.filter(product=> product.cartegory.toLowerCase() == categery.toLowerCase())
   }
   fillItem(data);
 }
@@ -52,7 +56,6 @@ function fillItem(data) {
     } catch (error) {
       console.error("Error in exampleUsage:", error);
     }
-  }else{
+  } else {
   }
 }
-
