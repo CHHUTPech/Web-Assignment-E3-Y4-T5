@@ -199,8 +199,8 @@ let product = [
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100004,
+    "name": "Business Bag",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -209,32 +209,13 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Black Grey",
+        "photo": ["/assets/products/mlouye-business-bag-black_grey-1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
-      },
-      {
-        "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
-      },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
         "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
+        "photo": ["/assets/products/mlouye-business-bag-earth-1_1.jpg"]
       }
     ],
     "details": [
@@ -256,19 +237,19 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-business-bag-black_grey-1.jpg",
+      "/assets/products/mlouye-business-bag-black_grey-2.jpg",
+      "/assets/products/mlouye-business-bag-black_grey-4.jpg",
+      "/assets/products/mlouye-business-bag-black_grey-5.jpg",
+      "/assets/products/mlouye-business-bag-black_grey-7.jpg",
+      "/assets/products/mlouye-business-bag-black-gray-l6.jpg",
+      "/assets/products/mlouye-business-bag-black-gray-l8.jpg",
+      "/assets/products/mlouye-business-bag-vegan-leather-l1.jpg"
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100005,
+    "name": "Combat boots",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -277,32 +258,8 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
-      },
-      {
-        "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
-      },
-      {
-        "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
-      },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
+        "name": "Milky",
+        "photo": ["/assets/products/mlouye-combat-boots-milky-1.jpg"]
       }
     ],
     "details": [
@@ -324,19 +281,13 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-combat-boots-milky-1.jpg",
+      "/assets/products/mlouye-combat-boots-milky-2.jpg"
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100006,
+    "name": "Helix",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -345,32 +296,23 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Denim",
+        "photo": ["/assets/products/mlouye-helix-denim-1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Multicolor",
+        "photo": ["/assets/products/mlouye-helix-multicolor-1.jpg"]
       },
       {
         "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
+        "name": "Off White",
+        "photo": ["/assets/products/mlouye-helix-off-white-1.jpg"]
       },
       {
         "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
+        "name": "South America",
+        "photo": ["/assets/products/mlouye-helix-south-america-1.jpg"]
       }
     ],
     "details": [
@@ -392,19 +334,17 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-helix-denim-1.jpg",
+      "/assets/products/mlouye-helix-denim-2.jpg",
+      "/assets/products/mlouye-helix-denim-3.jpg",
+      "/assets/products/mlouye-helix-denim-4.jpg",
+      "/assets/products/mlouye-helix-denim-5.jpg",
+      "/assets/products/mlouye-helix-denim-l2.jpg",
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100007,
+    "name": "Hobo",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -413,33 +353,19 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Latte",
+        "photo": ["/assets/products/mlouye-hobo-l-latte-n1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Off White",
+        "photo": ["/assets/products/mlouye-hobo-l-off-white-1.jpg"]
       },
       {
         "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
+        "name": "Yellow",
+        "photo": ["/assets/products/mlouye-hobo-l-yellow-1.jpg"]
       },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
-      }
     ],
     "details": [
       {
@@ -460,19 +386,18 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-hobo-l-latte-n1.jpg",
+      "/assets/products/mlouye-hobo-l-latte-n2.jpg",
+      "/assets/products/mlouye-hobo-m-latte-n6.jpg",
+      "/assets/products/mlouye-hobo-l-latte-n5.jpg",
+      "/assets/products/mlouye-hobo-l-latte-l7.jpg",
+      "/assets/products/mlouye-hobo-m-latte-l2.jpg",
+      "/assets/products/mlouye-hobo-m-latte-l5.jpg",
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100008,
+    "name": "Hobo Small Size",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -481,32 +406,18 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Latte",
+        "photo": ["/assets/products/mlouye-hobo-xs-latte-n1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Yellow",
+        "photo": ["/assets/products/mlouye-hobo-xs-yellow-1.jpg"]
       },
       {
         "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
-      },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
+        "name": "Off White",
+        "photo": ["/assets/products/mlouye-hobo-xs-off-white-1.jpg"]
       }
     ],
     "details": [
@@ -528,19 +439,17 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-hobo-xs-latte-n1.jpg",
+      "/assets/products/mlouye-hobo-xs-latte-n2.jpg",
+      "/assets/products/mlouye-hobo-xs-latte-n3.jpg",
+      "/assets/products/mlouye-hobo-xs-latte-n4.jpg",
+      "/assets/products/mlouye-hobo-xs-latte-l2.jpg",
+      "/assets/products/mlouye-hobo-xs-latte-l3.jpg",
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100009,
+    "name": "Lantern Bag",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -549,33 +458,14 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "earth",
+        "photo": ["/assets/products/mlouye-lantern-bag-earth-1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Off White",
+        "photo": ["/assets/products/mlouye-lantern-bag-off-white-1.jpg"]
       },
-      {
-        "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
-      },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
-      }
     ],
     "details": [
       {
@@ -596,19 +486,20 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-lantern-bag-earth-1.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-2.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-3.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-4.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-5.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-6.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-9.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-10.jpg",
+      "/assets/products/mlouye-lantern-bag-earth-11.jpg",
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100010,
+    "name": "Lantern Bag",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -617,33 +508,9 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": " Pleated Mint",
+        "photo": ["/assets/products/mlouye-lantern-bag-pleated-mint-nn1.jpg"]
       },
-      {
-        "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
-      },
-      {
-        "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
-      },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
-      }
     ],
     "details": [
       {
@@ -664,19 +531,19 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-lantern-bag-pleated-mint-nn1.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-nn2.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-nn3.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-nn4.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-l5.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-l3.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-l2.jpg",
+      "/assets/products/mlouye-lantern-bag-pleated-mint-l1.jpg"
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100011,
+    "name": "Slide Sandal",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -685,33 +552,19 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Buttermilk",
+        "photo": ["/assets/products/mlouye-louise-slide-sandal-buttermilk-1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Gummy",
+        "photo": ["/assets/products/mlouye-louise-slide-sandal-gummy-5.jpg"]
       },
       {
         "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
+        "name": "White",
+        "photo": ["/assets/products/mlouye-louise-slide-sandal-white-5.jpg"]
       },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
-      }
     ],
     "details": [
       {
@@ -732,19 +585,18 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-louise-slide-sandal-buttermilk-5.jpg",
+      "/assets/products/mlouye-louise-slide-sandal-buttermilk-4.jpg",
+      "/assets/products/mlouye-louise-slide-sandal-buttermilk-3.jpg",
+      "/assets/products/mlouye-louise-slide-sandal-buttermilk-2.jpg",
+      "/assets/products/mlouye-louise-slide-sandal-buttermilk-1.jpg",
+      "/assets/products/mlouye-louise-slide-sandal-gummy-5.jpg",
+      "/assets/products/mlouye-louise-slide-sandal-white-6.jpg"
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100012,
+    "name": "Pleated Boots",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
@@ -753,33 +605,14 @@ let product = [
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Off White",
+        "photo": ["/assets/products/mlouye-pleated-boots-off-white-1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Taupe",
+        "photo": ["/assets/products/mlouye-pleated-boots-taupe-1.jpg"]
       },
-      {
-        "id": 3,
-        "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
-      },
-      {
-        "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
-      },
-      {
-        "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
-      }
     ],
     "details": [
       {
@@ -800,14 +633,12 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-pleated-boots-taupe-1.jpg",
+      "/assets/products/mlouye-pleated-boots-taupe-2.jpg",
+      "/assets/products/mlouye-pleated-heel-boots-6.jpg",
+      "/assets/products/mlouye-pleated-heel-boots-7.jpg",
+      "/assets/products/mlouye-pleated-heel-boots-off-white-7.jpg",
+      "/assets/products/mlouye-pleated-boots-off-white-1.jpg"
     ]
   },
   {
