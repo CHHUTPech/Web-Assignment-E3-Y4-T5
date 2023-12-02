@@ -597,8 +597,8 @@ let product = [
   {
     "id": 100012,
     "name": "Pleated Boots",
-    "price": 108.0,
-    "d_price": 85.0,
+    "price": 85.0,
+    "d_price":108.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
     "cartegory": 'boots',
