@@ -112,8 +112,6 @@ function expands() {
     }
 }
 
-
-
 var productItemInCart = []
 function addProductToCart(quan, color) {
     if (color == '') {

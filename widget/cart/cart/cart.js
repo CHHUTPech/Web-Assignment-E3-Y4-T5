@@ -16,8 +16,12 @@ export function cartFunction() {
         cartItem.querySelector('[fileName="color"]').innerHTML = "Color: "+ productItem[i].color.find(color=>color.id == productItem[i].addColor).name;
         cartItem.querySelector('[fileName="quantity"]').innerHTML = productItem[i].addQuantity;
         cartItem.querySelector('[fileName="total_price"]').innerHTML ="$ " + parseFloat(productItem[i].addQuantity*productItem[i].price).toFixed(2);
-        cartItem.querySelector('.removeItem').setAttribute('onclick', 'removeProductFromCart('+productItem[i].id+')');
 
+        cartItem.querySelector('[fileName="quantity"]').setAttribute('id', 'quantity'+productItem[i].id)
+
+        cartItem.querySelector('#minusBtn').setAttribute('onclick', 'minusQuantity('+productItem[i].id+')');
+        cartItem.querySelector('.removeItem').setAttribute('onclick', 'removeProductFromCart('+productItem[i].id+')');
+        cartItem.querySelector('#plusBtn').setAttribute('onclick', 'plusQuantity('+productItem[i].id+')');
 
         newCartItem = newCartItem + cartItem.innerHTML
         totalPrice = totalPrice + parseFloat(productItem[i].addQuantity*productItem[i].price)
