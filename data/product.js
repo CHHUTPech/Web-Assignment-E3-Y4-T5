@@ -6,7 +6,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Tote bags',
     "color": [
       {
         "id": 1,
@@ -144,7 +144,7 @@ let product = [
     "d_price": 125.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. The Art Deco Camera bag is an ideal size for the woman who wants to wear her accessories, and not the other way around. Small enough to carry anywhere but large enough for your phone, lipstick and other beauty essentials, the Art Deco Camera Bag meets all the needs of an organised minimalist. Two tight, concentric zips keep your belongings safe and within easy reach, with an interior pocket for keeping small items secure.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Top handle bags',
     "color": [
       {
         "id": 1,
@@ -205,7 +205,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bann Usu Jhhjk  ',
+    "cartegory": 'Tote bags',
     "color": [
       {
         "id": 1,
@@ -254,7 +254,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'boots',
     "color": [
       {
         "id": 1,
@@ -292,7 +292,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Tote bags',
     "color": [
       {
         "id": 1,
@@ -349,7 +349,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Crossbody bags',
     "color": [
       {
         "id": 1,
@@ -402,7 +402,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Crossbody bags',
     "color": [
       {
         "id": 1,
@@ -454,7 +454,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Top handle bags',
     "color": [
       {
         "id": 1,
@@ -504,7 +504,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Shoulder bags',
     "color": [
       {
         "id": 1,
@@ -548,7 +548,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'bags',
+    "cartegory": 'Tsandals',
     "color": [
       {
         "id": 1,
@@ -601,7 +601,7 @@ let product = [
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'boots',
     "color": [
       {
         "id": 1,
@@ -642,42 +642,38 @@ let product = [
     ]
   },
   {
-    "id": 100001,
-    "name": "Brick",
+    "id": 100013,
+    "name": "Pleated Heel Mules",
     "price": 305.0,
     "d_price": 385.0,
     "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
     "link": "",
-    "cartegory": 'Bags',
+    "cartegory": 'Tsandals',
     "color": [
       {
         "id": 1,
-        "name": "Cashmere Rose",
-        "photo": ["/assets/products/mlouye-brick-cashmere-rose-1_.jpg"]
+        "name": "Beige",
+        "photo": ["/assets/products/mlouye-pleated-heel-mules-beige-1.jpg"]
       },
       {
         "id": 2,
-        "name": "Chocolate",
-        "photo": ["/assets/products/mlouye-brick-chocolate-1.jpg"]
+        "name": "Bordeaux",
+        "photo": ["/assets/products/mlouye-pleated-heel-mules-bordeaux-5.jpg"]
       },
       {
         "id": 3,
         "name": "Denim",
-        "photo": ["/assets/products/mlouye-brick-denim-1.jpg"]
+        "photo": ["/assets/products/mlouye-pleated-heel-mules-denim-5.jpg"]
       },
       {
         "id": 4,
-        "name": "Dry Rose",
-        "photo": ["/assets/products/mlouye-brick-dry-rose-1.jpg"]
+        "name": "Off White",
+        "photo": ["/assets/products/mlouye-pleated-mules-off-white-1.jpg"]
       },
       {
         "id": 5,
-        "name": "Jode",
-        "photo": ["/assets/products/mlouye-brick-jade-1.jpg"]
-      }, {
-        "id": 6,
-        "name": "Earth",
-        "photo": ["/assets/products/mlouye-brick-Earth-1.jpg"]
+        "name": "Olive",
+        "photo": ["/assets/products/mlouye-pleated-mules-olive-1.jpg"]
       }
     ],
     "details": [
@@ -699,14 +695,181 @@ let product = [
       }
     ],
     "photo": [
-      "/assets/products/mlouye-brick-oil-yellow-1.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-2.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-3.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-4.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-5.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-7.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-8.jpg",
-      "/assets/products/mlouye-brick-oil-yellow-9.jpg"
+      "/assets/products/mlouye-pleated-heel-mules-denim-5.jpg",
+      "/assets/products/mlouye-pleated-heel-mules-denim-3.jpg",
+      "/assets/products/mlouye-pleated-heel-mules-denim-5.jpg",
+      "/assets/products/mlouye-pleated-mules-off-white-1.jpg",
+      "/assets/products/mlouye-pleated-mules-off-white-2.jpg",
+    ]
+  },
+  {
+    "id": 100014,
+    "name": "WL",
+    "price": 305.0,
+    "d_price": 385.0,
+    "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "link": "",
+    "cartegory": 'Top handle bags',
+    "color": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "photo": ["/assets/products/wd1.jpg"]
+      },
+      {
+        "id": 2,
+        "name": "Brown",
+        "photo": ["/assets/products/wl1.jpg"]
+      }
+    ],
+    "details": [
+      {
+        "title": "Materials",
+        "des": "Hand-crafted from Italian cow leather. Ultrasuede® interior. Comes with a detachable and adjustable shoulder strap."
+      },
+      {
+        "title": "Shipping & Returns",
+        "des": "Free shipping and returns available on all orders! We ship all US domestic orders within 5-10 business days!"
+      },
+      {
+        "title": "Dimensions",
+        "des": "w:19 X h:11 X d:5.5 cm (7.5 X 4.5 X 2.2 in)"
+      },
+      {
+        "title": "Care Instructions",
+        "des": "Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry."
+      }
+    ],
+    "photo": [
+      "/assets/products/wl1.jpg",
+      "/assets/products/wl2.jpg",
+      "/assets/products/wl3.jpg",
+      "/assets/products/wl4.jpg",
+      "/assets/products/wl5.jpg",
+      "/assets/products/wl6.jpg",
+      "/assets/products/wl7.jpg",
+    ]
+  },
+  {
+    "id": 100016,
+    "name": "Puff Lsssarge",
+    "price": 305.0,
+    "d_price": 385.0,
+    "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "link": "",
+    "cartegory": 'Shoulder Bags',
+    "color": [
+      {
+        "id": 1,
+        "name": "Chocolate",
+        "photo": ["/assets/products/mlouye-puff-large-chocolate-1.jpg"]
+      },
+      {
+        "id": 2,
+        "name": "Emerald",
+        "photo": ["/assets/products/mlouye-puff-large-emerald-1.jpg"]
+      },
+      {
+        "id": 3,
+        "name": "Latte",
+        "photo": ["/assets/products/mlouye-puff-large-latte-1.jpg"]
+      }
+    ],
+    "details": [
+      {
+        "title": "Materials",
+        "des": "Hand-crafted from Italian cow leather. Ultrasuede® interior. Comes with a detachable and adjustable shoulder strap."
+      },
+      {
+        "title": "Shipping & Returns",
+        "des": "Free shipping and returns available on all orders! We ship all US domestic orders within 5-10 business days!"
+      },
+      {
+        "title": "Dimensions",
+        "des": "w:19 X h:11 X d:5.5 cm (7.5 X 4.5 X 2.2 in)"
+      },
+      {
+        "title": "Care Instructions",
+        "des": "Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry."
+      }
+    ],
+    "photo": [
+      "/assets/products/mlouye-puff-large-latte-1.jpg",
+      "/assets/products/mlouye-puff-large-latte-2.jpg",
+      "/assets/products/mlouye-puff-large-latte-3.jpg",
+      "/assets/products/mlouye-puff-large-latte-4.jpg",
+      "/assets/products/mlouye-puff-large-latte-5.jpg",
+      "/assets/products/mlouye-puff-large-latte-6.jpg",
+      "/assets/products/mlouye-puff-large-latte-7.jpg",
+      "/assets/products/mlouye-puff-large-latte-9.jpg",
+      "/assets/products/mlouye-puff-large-latte-11.jpg",
+      "/assets/products/mlouye-puff-large-latte-12.jpg",
+    ]
+  },
+  {
+    "id": 100015,
+    "name": "Thelma Sandal",
+    "price": 305.0,
+    "d_price": 385.0,
+    "description": "This is a demonstration store. You can purchase products like this from Mlouye. Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "link": "",
+    "cartegory": 'Tsandals',
+    "color": [
+      {
+        "id": 1,
+        "name": "Butter",
+        "photo": ["/assets/products/mlouye-thelma-sandal-butter-1.jpg"]
+      },
+      {
+        "id": 2,
+        "name": "Black",
+        "photo": ["/assets/products/mlouye-thelma-sandal-black-1.jpg"]
+      },
+      {
+        "id": 3,
+        "name": "Cappuccino",
+        "photo": ["/assets/products/mlouye-thelma-sandal-cappuccino-1.jpg"]
+      },
+      {
+        "id": 4,
+        "name": "Dry Rose",
+        "photo": ["/assets/products/mlouye-thelma-sandal-dry-rose-1.jpg"]
+      },
+      {
+        "id": 5,
+        "name": "Gummy",
+        "photo": ["/assets/products/mlouye-thelma-sandal-gummy-1.jpg"]
+      },
+      {
+        "id": 6,
+        "name": "White",
+        "photo": ["/assets/products/mlouye-thelma-sandal-white-1.jpg"]
+      }
+    ],
+    "details": [
+      {
+        "title": "Materials",
+        "des": "Hand-crafted from Italian cow leather. Ultrasuede® interior. Comes with a detachable and adjustable shoulder strap."
+      },
+      {
+        "title": "Shipping & Returns",
+        "des": "Free shipping and returns available on all orders! We ship all US domestic orders within 5-10 business days!"
+      },
+      {
+        "title": "Dimensions",
+        "des": "w:19 X h:11 X d:5.5 cm (7.5 X 4.5 X 2.2 in)"
+      },
+      {
+        "title": "Care Instructions",
+        "des": "Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry."
+      }
+    ],
+    "photo": [
+      "/assets/products/mlouye-thelma-sandal-black-1.jpg",
+      "/assets/products/mlouye-thelma-sandal-black-3.jpg",
+      "/assets/products/mlouye-thelma-sandal-black-4.jpg",
+      "/assets/products/mlouye-thelma-sandal-black-6.jpg",
+      "/assets/products/mlouye-thelma-sandal-cappuccino-6.jpg",
     ]
   }
 ]
